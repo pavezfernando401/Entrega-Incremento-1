@@ -1,0 +1,267 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="DSCU41BExcepcionsindeudapendient" name="DS-CU41-B Excepcion sin deuda pendiente">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1280" pageHeight="1232" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Cliente" vertex="1">
+          <mxGeometry height="84" width="56" x="44" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_actor" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72" y="112" as="sourcePoint" />
+            <mxPoint x="72" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="V_ConsultarDeudaPage" vertex="1">
+          <mxGeometry height="42" width="176" x="122" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="112" as="sourcePoint" />
+            <mxPoint x="210" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="V_DeudaLookupForm" vertex="1">
+          <mxGeometry height="42" width="176" x="310" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="398" y="112" as="sourcePoint" />
+            <mxPoint x="398" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="C_DeudaPublicaController" vertex="1">
+          <mxGeometry height="42" width="176" x="498" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="586" y="112" as="sourcePoint" />
+            <mxPoint x="586" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="C_ZodValidationPipe" vertex="1">
+          <mxGeometry height="42" width="176" x="686" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="774" y="112" as="sourcePoint" />
+            <mxPoint x="774" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="C_DeudaPublicaService" vertex="1">
+          <mxGeometry height="42" width="176" x="874" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="962" y="112" as="sourcePoint" />
+            <mxPoint x="960" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="cliente" vertex="1">
+          <mxGeometry height="42" width="176" x="1062" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l14" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="112" as="sourcePoint" />
+            <mxPoint x="1150" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m48" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;dashed=1;dashPattern=6 6;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1333" y="812" as="sourcePoint" />
+            <mxPoint x="967" y="812" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt49" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="13. Retorna lista sin facturas" vertex="1">
+          <mxGeometry height="26" width="176" x="1062" y="782" as="geometry" />
+        </mxCell>
+        <mxCell id="self51" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1026" y="870" />
+              <mxPoint x="1026" y="894" />
+            </Array>
+            <mxPoint x="967" y="870" as="sourcePoint" />
+            <mxPoint x="967" y="894" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt52" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="14. Calcula saldo total cero" vertex="1">
+          <mxGeometry height="26" width="150" x="974" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="m54" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;dashed=1;dashPattern=6 6;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="957" y="928" as="sourcePoint" />
+            <mxPoint x="591" y="928" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt55" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="15. Entrega tiene_deuda falso" vertex="1">
+          <mxGeometry height="26" width="364" x="592" y="898" as="geometry" />
+        </mxCell>
+        <mxCell id="m57" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;dashed=1;dashPattern=6 6;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="581" y="986" as="sourcePoint" />
+            <mxPoint x="403" y="986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt58" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="16. Responde sin deuda pendiente" vertex="1">
+          <mxGeometry height="26" width="176" x="404" y="956" as="geometry" />
+        </mxCell>
+        <mxCell id="m60" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;dashed=1;dashPattern=6 6;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393" y="1044" as="sourcePoint" />
+            <mxPoint x="77" y="1044" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt61" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="17. Muestra sin deudas pendientes" vertex="1">
+          <mxGeometry height="26" width="314" x="78" y="1014" as="geometry" />
+        </mxCell>
+        <mxCell id="tblh1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="factura" vertex="1">
+          <mxGeometry height="42" width="176" x="1250" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tbll1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1338" y="112" as="sourcePoint" />
+            <mxPoint x="1338" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pilar0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="894" width="10" x="67" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="836" width="10" x="393" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="604" width="10" x="581" y="394" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="372" width="10" x="957" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="82" width="10" x="1333" y="742" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-1" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79" y="180" as="sourcePoint" />
+            <mxPoint x="207" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="1. Accede a consulta publica de deuda" vertex="1">
+          <mxGeometry height="26" width="126" x="80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-3" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="217" y="238" as="sourcePoint" />
+            <mxPoint x="395" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="2. Renderiza formulario de deuda" vertex="1">
+          <mxGeometry height="26" width="176" x="218" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-5" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="78" y="323.13" as="sourcePoint" />
+            <mxPoint x="394" y="323.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="4. Ingresa RUT y consulta" vertex="1">
+          <mxGeometry height="26" width="314" x="79" y="293.13" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-7" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="464" y="354" />
+              <mxPoint x="464" y="378" />
+            </Array>
+            <mxPoint x="405" y="354" as="sourcePoint" />
+            <mxPoint x="405" y="378" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="5. Valida formato del RUT" vertex="1">
+          <mxGeometry height="26" width="150" x="412" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-9" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="412" as="sourcePoint" />
+            <mxPoint x="583" y="412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="6. Envia GET /deuda-publica/rut" vertex="1">
+          <mxGeometry height="26" width="176" x="406" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-11" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="593" y="470" as="sourcePoint" />
+            <mxPoint x="771" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="7. Valida query rut" vertex="1">
+          <mxGeometry height="26" width="176" x="594" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-13" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;dashed=1;dashPattern=6 6;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="771" y="528" as="sourcePoint" />
+            <mxPoint x="593" y="528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="8. Retorna query valida" vertex="1">
+          <mxGeometry height="26" width="176" x="594" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-15" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="593" y="586" as="sourcePoint" />
+            <mxPoint x="959" y="586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="9. Solicita consulta por RUT" vertex="1">
+          <mxGeometry height="26" width="364" x="594" y="556" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-17" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="969" y="644" as="sourcePoint" />
+            <mxPoint x="1147" y="644" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="10. Busca cliente y contratos" vertex="1">
+          <mxGeometry height="26" width="176" x="970" y="614" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-19" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;dashed=1;dashPattern=6 6;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1147" y="702" as="sourcePoint" />
+            <mxPoint x="969" y="702" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-20" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="11. Retorna contratos asociados" vertex="1">
+          <mxGeometry height="26" width="176" x="970" y="672" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-21" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="969" y="760" as="sourcePoint" />
+            <mxPoint x="1335" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-22" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="12. Consulta facturas pendientes o vencidas" vertex="1">
+          <mxGeometry height="26" width="176" x="1064" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="82" width="10" x="207" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="82" width="10" x="771" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="82" width="10" x="1147" y="632" as="geometry" />
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-26" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;dashed=1;dashPattern=6 6;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="392" y="286" as="sourcePoint" />
+            <mxPoint x="79" y="286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSrqvspPHFUpyUK1myJy-27" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="3. Entrega Formulario de deuda" vertex="1">
+          <mxGeometry height="26" width="314" x="79" y="256" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

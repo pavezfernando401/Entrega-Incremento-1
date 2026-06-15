@@ -1,0 +1,385 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="DS-CU18-A_Flujo_principal_formulario_contratacion" name="DS-CU18-A_Flujo_principal_formulario_contratacion">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="2204" pageHeight="1360" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=12;fillColor=#ffffff;strokeColor=#333333;" value="Cliente" vertex="1">
+          <mxGeometry height="84" width="56" x="44" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="V_PlanCard" vertex="1">
+          <mxGeometry height="44" width="154" x="150" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="V_ContratarPlanPage" vertex="1">
+          <mxGeometry height="44" width="154" x="328" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="V_FormularioContratacion" vertex="1">
+          <mxGeometry height="44" width="154" x="506" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="C_NextLink" vertex="1">
+          <mxGeometry height="44" width="154" x="684" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="C_AppRouter" vertex="1">
+          <mxGeometry height="44" width="154" x="862" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="C_getPlanById" vertex="1">
+          <mxGeometry height="44" width="154" x="1040" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="C_getLandingPlanes" vertex="1">
+          <mxGeometry height="44" width="154" x="1218" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="C_LandingController" vertex="1">
+          <mxGeometry height="44" width="154" x="1396" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="C_LandingService" vertex="1">
+          <mxGeometry height="44" width="154" x="1574" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="C_PrismaService" vertex="1">
+          <mxGeometry height="44" width="154" x="1752" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;fontSize=12;" value="plan" vertex="1">
+          <mxGeometry height="44" width="154" x="1930" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="life0" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72" y="104" as="sourcePoint" />
+            <mxPoint x="72" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="227" y="104" as="sourcePoint" />
+            <mxPoint x="227" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="104" as="sourcePoint" />
+            <mxPoint x="405" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="583" y="104" as="sourcePoint" />
+            <mxPoint x="583" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="761" y="104" as="sourcePoint" />
+            <mxPoint x="761" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="939" y="104" as="sourcePoint" />
+            <mxPoint x="939" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1117" y="104" as="sourcePoint" />
+            <mxPoint x="1117" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life7" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1295" y="104" as="sourcePoint" />
+            <mxPoint x="1295" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1473" y="104" as="sourcePoint" />
+            <mxPoint x="1473" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1651" y="104" as="sourcePoint" />
+            <mxPoint x="1651" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1829" y="104" as="sourcePoint" />
+            <mxPoint x="1830" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2007" y="104" as="sourcePoint" />
+            <mxPoint x="2007" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="232" y="285" as="sourcePoint" />
+            <mxPoint x="756" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="4. Envia href del plan" vertex="1">
+          <mxGeometry height="22" width="518" x="235" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="m5" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="766" y="335" as="sourcePoint" />
+            <mxPoint x="934" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="5. Solicita navegacion a formulario" vertex="1">
+          <mxGeometry height="22" width="162" x="769" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="m6" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;endFill=1;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="934" y="385" as="sourcePoint" />
+            <mxPoint x="410" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="6. Carga ruta contratar plan" vertex="1">
+          <mxGeometry height="22" width="518" x="413" y="361" as="geometry" />
+        </mxCell>
+        <mxCell id="m7" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="435" as="sourcePoint" />
+            <mxPoint x="1112" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="7. Solicita plan seleccionado" vertex="1">
+          <mxGeometry height="22" width="696" x="413" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="m8" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1122" y="485" as="sourcePoint" />
+            <mxPoint x="1290" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="8. Solicita catalogo de planes" vertex="1">
+          <mxGeometry height="22" width="162" x="1125" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="m9" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="535" as="sourcePoint" />
+            <mxPoint x="1468" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="9. Solicita GET landing/planes" vertex="1">
+          <mxGeometry height="22" width="162" x="1303" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="m10" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1478" y="585" as="sourcePoint" />
+            <mxPoint x="1646" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="10. Solicita planes activos" vertex="1">
+          <mxGeometry height="22" width="162" x="1481" y="561" as="geometry" />
+        </mxCell>
+        <mxCell id="m11" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1656" y="635" as="sourcePoint" />
+            <mxPoint x="1824" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="11. Consulta planes activos" vertex="1">
+          <mxGeometry height="22" width="162" x="1659" y="611" as="geometry" />
+        </mxCell>
+        <mxCell id="m12" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1834" y="685" as="sourcePoint" />
+            <mxPoint x="2002" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="12. Busca registros en tabla plan" vertex="1">
+          <mxGeometry height="22" width="162" x="1837" y="661" as="geometry" />
+        </mxCell>
+        <mxCell id="m13" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;endFill=1;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2002" y="735" as="sourcePoint" />
+            <mxPoint x="1834" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="13. Devuelve planes encontrados" vertex="1">
+          <mxGeometry height="22" width="162" x="1837" y="711" as="geometry" />
+        </mxCell>
+        <mxCell id="m14" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;endFill=1;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1824" y="785" as="sourcePoint" />
+            <mxPoint x="1656" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="14. Devuelve resultado prisma" vertex="1">
+          <mxGeometry height="22" width="162" x="1659" y="761" as="geometry" />
+        </mxCell>
+        <mxCell id="m15_a" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1656" y="835" as="sourcePoint" />
+            <mxPoint x="1727" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m15_b" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1727" y="835" as="sourcePoint" />
+            <mxPoint x="1727" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m15_c" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1727" y="865" as="sourcePoint" />
+            <mxPoint x="1656" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t15" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="15. Mapea planes disponibles" vertex="1">
+          <mxGeometry height="22" width="118" x="1663" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="m16" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;endFill=1;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1646" y="885" as="sourcePoint" />
+            <mxPoint x="1478" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="16. Devuelve catalogo de planes" vertex="1">
+          <mxGeometry height="22" width="162" x="1481" y="861" as="geometry" />
+        </mxCell>
+        <mxCell id="m17" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;endFill=1;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1468" y="935" as="sourcePoint" />
+            <mxPoint x="1300" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t17" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="17. Entrega respuesta JSON" vertex="1">
+          <mxGeometry height="22" width="162" x="1303" y="911" as="geometry" />
+        </mxCell>
+        <mxCell id="m18" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;endFill=1;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="985" as="sourcePoint" />
+            <mxPoint x="1122" y="985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="18. Devuelve catalogo al buscador" vertex="1">
+          <mxGeometry height="22" width="162" x="1125" y="961" as="geometry" />
+        </mxCell>
+        <mxCell id="m19_a" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1122" y="1035" as="sourcePoint" />
+            <mxPoint x="1193" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m19_b" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1193" y="1035" as="sourcePoint" />
+            <mxPoint x="1193" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m19_c" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1193" y="1065" as="sourcePoint" />
+            <mxPoint x="1122" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="19. Busca plan por id" vertex="1">
+          <mxGeometry height="22" width="118" x="1129" y="1011" as="geometry" />
+        </mxCell>
+        <mxCell id="m20" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;endFill=1;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1112" y="1085" as="sourcePoint" />
+            <mxPoint x="410" y="1085" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t20" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="20. Devuelve plan seleccionado" vertex="1">
+          <mxGeometry height="22" width="696" x="413" y="1061" as="geometry" />
+        </mxCell>
+        <mxCell id="m21" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1135" as="sourcePoint" />
+            <mxPoint x="578" y="1135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="21. Renderiza formulario de solicitud" vertex="1">
+          <mxGeometry height="22" width="162" x="413" y="1111" as="geometry" />
+        </mxCell>
+        <mxCell id="m22" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;endFill=1;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="578" y="1185" as="sourcePoint" />
+            <mxPoint x="410" y="1185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t22" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="22. Devuelve formulario inicial" vertex="1">
+          <mxGeometry height="22" width="162" x="413" y="1161" as="geometry" />
+        </mxCell>
+        <mxCell id="m23" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;endFill=1;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1220" as="sourcePoint" />
+            <mxPoint x="77" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t23" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="23. Muestra formulario de contratacion" vertex="1">
+          <mxGeometry height="22" width="317" x="77" y="1197" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1097" width="10" x="67" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="157" width="10" x="222" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="857" width="10" x="400" y="373" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="74" width="10" x="578" y="1123" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="74" width="10" x="756" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="74" width="10" x="934" y="323" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="674" width="10" x="1112" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="524" width="10" x="1290" y="473" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="424" width="10" x="1468" y="523" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="324" width="10" x="1646" y="573" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="174" width="10" x="1824" y="623" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="74" width="10" x="2002" y="673" as="geometry" />
+        </mxCell>
+        <mxCell id="uDgTBXt54o_RC0jceecM-1" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="77" y="172" as="sourcePoint" />
+            <mxPoint x="222" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDgTBXt54o_RC0jceecM-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="1. Visualiza tarjeta de plan" vertex="1">
+          <mxGeometry height="22" width="139" x="80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uDgTBXt54o_RC0jceecM-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="2. Muestra boton Contratar" vertex="1">
+          <mxGeometry height="22" width="142" x="80" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="uDgTBXt54o_RC0jceecM-4" edge="1" parent="1" style="html=1;rounded=0;strokeWidth=1;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="77" y="275" as="sourcePoint" />
+            <mxPoint x="222" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDgTBXt54o_RC0jceecM-5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontStyle=1" value="3. Selecciona boton Contratar" vertex="1">
+          <mxGeometry height="22" width="139" x="80" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="uDgTBXt54o_RC0jceecM-6" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;endFill=1;dashed=1;dashPattern=6 4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="217" as="sourcePoint" />
+            <mxPoint x="77" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

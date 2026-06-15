@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="DSCU37AFlujoprincipalmenumovildi" name="DS-CU37-A Flujo principal menu movil directo">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="716" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lifeline_actor" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72" y="112" as="sourcePoint" />
+            <mxPoint x="72" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="V_Navbar" vertex="1">
+          <mxGeometry height="42" width="176" x="122" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="112" as="sourcePoint" />
+            <mxPoint x="210" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="V_MobileMenu" vertex="1">
+          <mxGeometry height="42" width="176" x="310" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="398" y="112" as="sourcePoint" />
+            <mxPoint x="398" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="C_NextRouter" vertex="1">
+          <mxGeometry height="42" width="176" x="498" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="586" y="112" as="sourcePoint" />
+            <mxPoint x="586" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="202" as="sourcePoint" />
+            <mxPoint x="204" y="202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" value="1. Visualiza cabecera en vista movil" vertex="1">
+          <mxGeometry height="26" width="126" x="78" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="m12" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="232" as="sourcePoint" />
+            <mxPoint x="393" y="232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" value="2. Renderiza boton menu movil" vertex="1">
+          <mxGeometry height="26" width="176" x="216" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="self18" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462" y="270" />
+              <mxPoint x="462" y="294" />
+            </Array>
+            <mxPoint x="403" y="270" as="sourcePoint" />
+            <mxPoint x="403" y="294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" value="3. Cambia estado isOpen" vertex="1">
+          <mxGeometry height="26" width="150" x="410" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="m21" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;dashed=1;dashPattern=6 6;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393" y="328" as="sourcePoint" />
+            <mxPoint x="77" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt22" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" value="4. Muestra secciones navegables" vertex="1">
+          <mxGeometry height="26" width="314" x="78" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="m24" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="77" y="386" as="sourcePoint" />
+            <mxPoint x="393" y="386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt25" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" value="5. Selecciona seccion directa" vertex="1">
+          <mxGeometry height="26" width="314" x="78" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="self27" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="462" y="444" />
+              <mxPoint x="462" y="468" />
+            </Array>
+            <mxPoint x="403" y="444" as="sourcePoint" />
+            <mxPoint x="403" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt28" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" value="6. Cierra menu movil" vertex="1">
+          <mxGeometry height="26" width="150" x="410" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="m30" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="502" as="sourcePoint" />
+            <mxPoint x="581" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" value="7. Navega con Link a destino" vertex="1">
+          <mxGeometry height="26" width="176" x="404" y="472" as="geometry" />
+        </mxCell>
+        <mxCell id="m33" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;dashed=1;dashPattern=6 6;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="581" y="560" as="sourcePoint" />
+            <mxPoint x="403" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt34" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" value="8. Carga ruta seleccionada" vertex="1">
+          <mxGeometry height="26" width="176" x="404" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="m36" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;dashed=1;dashPattern=6 6;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393" y="618" as="sourcePoint" />
+            <mxPoint x="77" y="618" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txt37" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" value="9. Muestra seccion elegida" vertex="1">
+          <mxGeometry height="26" width="314" x="78" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="478" width="10" x="67" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="54" width="10" x="205" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="420" width="10" x="393" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="82" width="10" x="581" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="LhKy0YSlu5fxsHiOw79_-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Cliente" vertex="1">
+          <mxGeometry height="58" width="36" x="54" y="36" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

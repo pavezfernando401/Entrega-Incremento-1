@@ -1,0 +1,249 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="DSCU20BExcepcionperfilsinsesion" name="DS-CU20-B Excepcion perfil sin sesion">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1478" pageHeight="1160" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Cliente" vertex="1">
+          <mxGeometry height="84" width="56" x="44" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72" y="112" as="sourcePoint" />
+            <mxPoint x="72" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="V_Footer" vertex="1">
+          <mxGeometry height="44" width="146" x="158" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231" y="112" as="sourcePoint" />
+            <mxPoint x="231" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="V_FooterNav" vertex="1">
+          <mxGeometry height="44" width="146" x="342" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="112" as="sourcePoint" />
+            <mxPoint x="415" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="V_Login" vertex="1">
+          <mxGeometry height="44" width="146" x="526" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599" y="112" as="sourcePoint" />
+            <mxPoint x="600" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="C_footerColumns" vertex="1">
+          <mxGeometry height="44" width="146" x="870" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="942.55" y="118" as="sourcePoint" />
+            <mxPoint x="942.55" y="966" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="C_NextLink" vertex="1">
+          <mxGeometry height="44" width="146" x="1054" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1127" y="112" as="sourcePoint" />
+            <mxPoint x="1127" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="C_AppRouter" vertex="1">
+          <mxGeometry height="44" width="146" x="1238" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l14" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1311" y="112" as="sourcePoint" />
+            <mxPoint x="1311" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="C_middleware" vertex="1">
+          <mxGeometry height="44" width="146" x="1422" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l16" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1495" y="112" as="sourcePoint" />
+            <mxPoint x="1495" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="78" y="154" as="sourcePoint" />
+            <mxPoint x="225" y="154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="1. Visualiza pie de pagina" vertex="1">
+          <mxGeometry height="24" width="147" x="78" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237" y="212" as="sourcePoint" />
+            <mxPoint x="409" y="212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t20" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="2. Renderiza navegacion" vertex="1">
+          <mxGeometry height="24" width="172" x="237" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;entryX=0.25;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" target="pilar4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="421" y="270" as="sourcePoint" />
+            <mxPoint x="930" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t22" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="3. Lee enlace Portal Cliente" vertex="1">
+          <mxGeometry height="24" width="356" x="514" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="e23" edge="1" parent="1" source="pilar4" style="endArrow=block;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#000000;strokeWidth=1;endFill=1;exitX=0.25;exitY=0.878;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="330" as="sourcePoint" />
+            <mxPoint x="421" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t24" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="4. Devuelve href de perfil" vertex="1">
+          <mxGeometry height="24" width="356" x="513" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e25" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#000000;strokeWidth=1;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409" y="386" as="sourcePoint" />
+            <mxPoint x="78" y="386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t26" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="5. Muestra enlace Portal Cliente" vertex="1">
+          <mxGeometry height="24" width="331" x="78" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="e27" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="78" y="444" as="sourcePoint" />
+            <mxPoint x="409" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t28" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="6. Selecciona Portal Cliente" vertex="1">
+          <mxGeometry height="24" width="331" x="78" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="e29" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="421" y="502" as="sourcePoint" />
+            <mxPoint x="1120" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t30" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="7. Envia href de perfil" vertex="1">
+          <mxGeometry height="24" width="540" x="421" y="472" as="geometry" />
+        </mxCell>
+        <mxCell id="e31" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1133" y="560" as="sourcePoint" />
+            <mxPoint x="1305" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="8. Solicita ruta de perfil" vertex="1">
+          <mxGeometry height="24" width="172" x="1133" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="e33" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1317" y="618" as="sourcePoint" />
+            <mxPoint x="1489" y="618" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t34" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="9. Evalua ruta protegida" vertex="1">
+          <mxGeometry height="24" width="172" x="1317" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="e35" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1559" y="676" />
+              <mxPoint x="1559" y="706" />
+            </Array>
+            <mxPoint x="1501" y="676" as="sourcePoint" />
+            <mxPoint x="1501" y="706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t36" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="10. Detecta ruta protegida" vertex="1">
+          <mxGeometry height="24" width="170" x="1473" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="e37" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1559" y="734" />
+              <mxPoint x="1559" y="764" />
+            </Array>
+            <mxPoint x="1501" y="734" as="sourcePoint" />
+            <mxPoint x="1501" y="764" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t38" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="11. Busca cookie de sesion" vertex="1">
+          <mxGeometry height="24" width="170" x="1473" y="706" as="geometry" />
+        </mxCell>
+        <mxCell id="e39" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#000000;strokeWidth=1;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1489" y="792" as="sourcePoint" />
+            <mxPoint x="1317" y="792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t40" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="12. Redirige al login" vertex="1">
+          <mxGeometry height="24" width="172" x="1317" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="e41" edge="1" parent="1" source="pilar6" style="endArrow=block;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#000000;strokeWidth=1;endFill=1;exitX=0.076;exitY=0.969;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1145" y="850" as="sourcePoint" />
+            <mxPoint x="605" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t42" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="13. Entrega vista de login" vertex="1">
+          <mxGeometry height="24" width="540" x="739" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="e43" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;dashed=1;dashPattern=6 4;strokeColor=#000000;strokeWidth=1;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="593" y="908" as="sourcePoint" />
+            <mxPoint x="78" y="908" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t44" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;spacing=0;" value="14. Muestra inicio de sesion" vertex="1">
+          <mxGeometry height="24" width="515" x="78" y="878" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="778" width="12" x="66" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="82" width="12" x="225" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="314" width="12" x="409" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="82" width="12" x="593" y="838" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="82" width="12" x="937" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="82" width="12" x="1121" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="314" width="12" x="1305" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="pilar7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="198" width="12" x="1489" y="606" as="geometry" />
+        </mxCell>
+        <mxCell id="3NQgrkhun0HT16RpKWzN-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="V_Destino" vertex="1">
+          <mxGeometry height="44" width="146" x="700" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3NQgrkhun0HT16RpKWzN-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="772.55" y="114" as="sourcePoint" />
+            <mxPoint x="772.55" y="962" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
